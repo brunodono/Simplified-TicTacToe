@@ -1,0 +1,78 @@
+.game {
+    display: none;
+}
+
+td {
+    font-size: 5.9rem;
+    font-family: cursive;
+    text-align: center;
+    width: 150px!important;
+    height: 150px!important;
+    max-width: 150px!important;
+    max-height: 150px!important;
+}
+
+
+/* Scoreboard Start */
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px;
+}
+
+
+/*Scoreboard End */
+
+table {
+    height: 500px!important;
+    width: 500px!important;
+    border-collapse: unset;
+}
+
+.space-top {
+    margin-top: 150px;
+}
+
+.center {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**BORDERS start**/
+
+.space-top {
+    margin-top: 0px;
+}
+
+tr,
+td {
+    border: 3px solid black!important;
+}
+
+.border-top {
+    border-top: 0px!important;
+}
+
+.border-left {
+    border-left: 0px!important;
+}
+
+.border-right {
+    border-right: 0px!important;
+}
+
+.border-bottom {
+    border-bottom: 0px!important;
+}
+
+
+/**BORDERS end**/
+
+.modal-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
